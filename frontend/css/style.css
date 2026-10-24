@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/*  Body Styling */
+body{
+    min-height:100px;
+    background-color: #080f1e;
+    color: #f1f5f9;
+    font-family:Arial, sans-serif;
+    line-height:1.6;
+}
+
+/*  Navigation Bar */
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 20px;
+    padding: 22px 8%;
+    border-bottom: 1px solid #263751;
+    background-color: #0c1628;
+}
+
+/* Brand / Logo */
+.brand{
+    color: #f1f5f9;
+    text-decoration: none;
+    font-size:  21px;
+    font-weight: 700;
+
+}
+
+.brand-icon,
+.brand-ai {
+    color: #38bdf8;
+}
